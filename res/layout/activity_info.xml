@@ -1,0 +1,143 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrvwlnlyt2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/scrvwlnlyt1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/conttext"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="Gets a total amount of 10000 bucks"
+                android:textSize="17sp" />
+
+            <FrameLayout
+                android:id="@+id/editmemana"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#033076"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.04"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/edit" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.04"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/infoscale4"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.62"
+                        android:gravity="center|left"
+                        android:text="EDIT MEMBERS"
+                        android:textColor="#ffffff"
+                        android:textSize="8sp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/owestats"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="left"
+            android:padding="2dp"
+            android:text="Cash Flows"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/scrvwlnlyt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="2dp" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/conschrt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="left"
+            android:padding="2dp"
+            android:text="Productwise Consumption Chart"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/rect"
+            android:layout_width="320dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/consdta"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="#000000"
+            android:gravity="left"
+            android:padding="2dp"
+            android:text="Productwise Consumption Data"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/conslist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="2dp" >
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+
+    <TextView
+        android:id="@+id/donor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:text="TextView"
+        android:textColor="#007A00"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/reciept"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+</LinearLayout>

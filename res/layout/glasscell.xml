@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@layout/glasslayback"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/prodind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="left"
+            android:paddingLeft="3sp"
+            android:paddingTop="3sp"
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="10sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/proddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:paddingRight="3dp"
+            android:paddingTop="3dp"
+            android:text="17/06/2014"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="7sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/proddisc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/proddate"
+            android:layout_toLeftOf="@+id/prodcost"
+            android:layout_toRightOf="@+id/prodind"
+            android:gravity="left"
+            android:paddingBottom="3sp"
+            android:text="Description"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="15sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/prodcost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/proddisc"
+            android:layout_alignParentRight="true"
+            android:paddingRight="3dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="9sp" />
+    </RelativeLayout>
+
+</LinearLayout>

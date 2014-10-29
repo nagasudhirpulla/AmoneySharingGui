@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DEBT-O-NATOR</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity2">Product Editing</string>
+    <string name="title_activity_resultdisplay">Final Contributions</string>
+    <string name="title_activity_member_editing">Edit Members</string>
+    <string name="title_activity_member_delete">Delete Member</string>
+    <string name="title_activity_transaction">Exchange Analysis</string>
+    <string name="title_activity_product_edit">ProductEditActivity</string>
+    <string name="title_activity_instance_load">The Ledger</string>
+    <string name="title_activity_info">Member Info</string>
+
+</resources>

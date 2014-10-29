@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp" >
+
+    <TextView
+        android:id="@+id/srl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:background="@layout/serialback"
+        android:ems="10"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="1"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/nameinlist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.75"
+        android:background="@layout/namebackground"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/memberdeletebutton1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.11"
+        android:background="@layout/deletebackground"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/delete" />
+
+</LinearLayout>

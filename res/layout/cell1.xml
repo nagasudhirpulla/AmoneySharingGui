@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="3dp"
+    android:paddingTop="5dp"
+    android:weightSum="1" >
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.35"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:text="Nagasudhir"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id = "@+id/prodadapscalelay1"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.45"
+        android:background="@layout/buttonshape"
+        android:orientation="horizontal"
+        android:paddingLeft="6dp"
+        android:paddingRight="1dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:weightSum="1" >
+
+        <EditText
+            android:id="@+id/edittxtview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.95"
+            android:background="#ffffff"
+            android:gravity="left|center"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:text="1234"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/alrtView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:scaleType="fitEnd"
+            android:src="@drawable/alert_small" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:src="@drawable/tick" />
+
+</LinearLayout>
